@@ -20,12 +20,13 @@ kırmızı, yeşil ve mavi renkli nesnelerin tespit edilmesini amaçlamaktadır.
 4. `inRange` fonksiyonu ile maske oluşturulur.
 5. Morfolojik işlemler ile gürültü temizlenir.
 6. Konturlar bulunarak nesnelerin etrafına dikdörtgen çizilir.
+7.  Program çalışırken:
+Algılanan renkli nesneler bounding box ile gösterilir
+Maske görüntüleri ayrı pencerelerde izlenebilir
+q veya ESC tuşu ile program sonlandırılır
 
 # Çalıştırma
 ```bash
 pip install opencv-python numpy
 python main.py
- Program çalışırken:
-Algılanan renkli nesneler bounding box ile gösterilir
-Maske görüntüleri ayrı pencerelerde izlenebilir
-q veya ESC tuşu ile program sonlandırılır
+
