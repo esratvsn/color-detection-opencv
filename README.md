@@ -21,9 +21,11 @@ kırmızı, yeşil ve mavi renkli nesnelerin tespit edilmesini amaçlamaktadır.
 5. Morfolojik işlemler ile gürültü temizlenir.
 6. Konturlar bulunarak nesnelerin etrafına dikdörtgen çizilir.
 7.  Program çalışırken:
-Algılanan renkli nesneler bounding box ile gösterilir
-Maske görüntüleri ayrı pencerelerde izlenebilir
-q veya ESC tuşu ile program sonlandırılır
+Algılanan renkli nesneler bounding box ile gösterilir.
+
+Maske görüntüleri ayrı pencerelerde izlenebilir.
+
+q veya ESC tuşu ile program sonlandırılır.
 
 # Çalıştırma
 ```bash
